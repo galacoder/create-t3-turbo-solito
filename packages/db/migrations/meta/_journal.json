@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1681668847768,
+      "tag": "0000_rich_james_howlett",
+      "breakpoints": false
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1681669923499,
+      "tag": "0001_fixed_silver_samurai",
+      "breakpoints": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@acme/core",
+  "version": "0.1.0",
+  "main": "index.ts",
+  "types": "./index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "moti": "latest",
+    "solito": "3.0.0"
+  },
+  "sideEffects": false,
+  "type": "module"
+}
+

@@ -11,8 +11,8 @@ import { type CreateNextContextOptions } from "@trpc/server/adapters/next";
 import superjson from "superjson";
 import { ZodError } from "zod";
 
-import { getServerSession, type Session } from "@acme/auth";
-import { db } from "@acme/db";
+import { getServerSession, type Session } from "@aeon/auth";
+import { db } from "@aeon/db";
 
 /**
  * 1. CONTEXT

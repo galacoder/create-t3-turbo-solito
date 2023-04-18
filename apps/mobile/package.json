@@ -1,5 +1,5 @@
 {
-  "name": "@acme/mobile",
+  "name": "@aeon/mobile",
   "version": "0.1.0",
   "main": "index.tsx",
   "scripts": {
@@ -33,16 +33,15 @@
     "superjson": "1.9.1"
   },
   "devDependencies": {
-    "@acme/api": "*",
-    "@acme/core": "*",
-    "@acme/eslint-config": "*",
+    "@aeon/api": "*",
+    "@aeon/eslint-config": "*",
+    "@aeon/tailwind-config": "*",
     "@babel/core": "^7.21.4",
     "@babel/preset-env": "^7.21.4",
     "@babel/runtime": "^7.21.0",
     "@expo/config-plugins": "^6.0.1",
     "@types/babel__core": "^7.20.0",
     "@types/react": "^18.0.33",
-    "@types/react-native": "^0.71.6",
     "@types/webpack-env": "^1.18.0",
     "eslint": "^8.38.0",
     "postcss": "^8.4.21",

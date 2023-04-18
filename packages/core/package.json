@@ -1,14 +1,14 @@
 {
-  "name": "@acme/core",
+  "name": "@aeon/core",
   "version": "0.1.0",
   "main": "index.ts",
   "types": "./index.ts",
   "license": "MIT",
   "dependencies": {
     "moti": "latest",
+    "nativewind": "^2.0.11",
     "solito": "3.0.0"
   },
   "sideEffects": false,
   "type": "module"
 }
-

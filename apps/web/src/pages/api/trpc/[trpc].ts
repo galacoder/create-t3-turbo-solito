@@ -1,4 +1,4 @@
-import { appRouter, createTRPCContext } from "@acme/api";
+import { appRouter, createTRPCContext } from "@aeon/api";
 import { createNextApiHandler } from "@trpc/server/adapters/next";
 
 // export API handler

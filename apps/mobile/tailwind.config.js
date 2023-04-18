@@ -1,14 +1,16 @@
-// @ts-check
+// TODO: Add support for TS config files in Nativewind.
 
-const { theme } = require("@acme/core/design/tailwind/theme");
+// import { type Config } from "tailwindcss";
 
-/**
- * @type {import('tailwindcss').Config}
- */
-module.exports = {
-  content: ["./App.tsx", "../../packages/**/*.{js,jsx,ts,tsx}"],
-  theme: {
-    ...theme,
-  },
-  plugins: [],
+// import baseConfig from "@aeon/tailwind-config";
+
+// export default {
+//   presets: [baseConfig],
+//   content: ["./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
+// } satisfies Config;
+
+const config = {
+  content: ["./src/**/*.{ts,tsx}"],
 };
+
+module.exports = config;

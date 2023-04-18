@@ -1,8 +1,8 @@
 import { z } from "zod";
 
-import { db, schema } from "@acme/db";
+import { db, schema } from "@aeon/db";
 
-import "@acme/db/";
+import "@aeon/db/";
 import { createTRPCRouter, publicProcedure } from "../trpc";
 import { eq, desc } from "drizzle-orm/expressions";
 

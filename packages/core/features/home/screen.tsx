@@ -1,8 +1,9 @@
 import React from "react";
+import { TextLink } from "solito/link";
 import { MotiLink } from "solito/moti";
 
 import { Row } from "../../design/layout";
-import { A, H1, P, Text, TextLink } from "../../design/typography";
+import { A, H1, P, Text } from "../../design/typography";
 import { View } from "../../design/view";
 
 export function HomeScreen() {
@@ -17,29 +18,11 @@ export function HomeScreen() {
         </P>
         <P className="text-center">
           Solito is made by{" "}
-          <A
-            href="https://twitter.com/fernandotherojo"
-            hrefAttrs={{
-              target: "_blank",
-              rel: "noreferrer",
-            }}
-          >
-            Fernando Rojo
-          </A>
-          .
+          <A href="https://twitter.com/fernandotherojo">Fernando Rojo</A>.
         </P>
         <P className="text-center">
           NativeWind is made by{" "}
-          <A
-            href="https://twitter.com/mark__lawlor"
-            hrefAttrs={{
-              target: "_blank",
-              rel: "noreferrer",
-            }}
-          >
-            Mark Lawlor
-          </A>
-          .
+          <A href="https://twitter.com/mark__lawlor">Mark Lawlor</A>.
         </P>
       </View>
       <View className="h-[32px]" />
@@ -60,9 +43,7 @@ export function HomeScreen() {
             duration: 150,
           }}
         >
-          <Text selectable={false} className="text-base font-bold">
-            Moti Link
-          </Text>
+          <Text className="text-base font-bold">Moti Link</Text>
         </MotiLink>
       </Row>
     </View>

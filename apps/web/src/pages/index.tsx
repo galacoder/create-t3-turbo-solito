@@ -1,3 +1,3 @@
-import { HomeScreen } from "@acme/core/features/home/screen";
+import { HomeScreen } from "@aeon/core/features/home/screen";
 
 export default HomeScreen;
